@@ -18,7 +18,7 @@ var losses = 0;
 for (var i =0; i < numberOptions.length; i++) {
     //for each iteration, we will assign/link the image crystal to its variable to eventually assign a random number value to it. 
     var imageCrystal = $("<img>");
-    imageCrystal.addClass("#crystal-image");//assigning a class 
+    imageCrystal.addClass("crystal-image");//assigning a class 
     imageCrystal.attr("src", imagesArr[i]);
     imageCrystal.attr("data-crystalValue", numberOptions[i]);
     $("#crystals").append(imageCrystal);
@@ -26,7 +26,7 @@ for (var i =0; i < numberOptions.length; i++) {
 
 
  //now we need a click event occur for every crystal image on the page, not just one (bc we assigned them all the class of crystal-image)
-$("#crystal-image").on("click", function() {
+$(".crystal-image").on("click", function() {
     var crystalValue = ($(this).attr("data-crystalValue"));
     crystalValue = parseInt(crystalValue);
     counter += crystalValue;
