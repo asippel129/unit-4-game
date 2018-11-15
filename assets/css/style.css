@@ -1,4 +1,50 @@
+body {
+    background-image: url(../images/topography.png);
+}
+
+.instructions {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+
 .crystal-image {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
   }
+
+h1 {
+    font-size: 50px;
+    text-align:center;
+    display: block;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+.content {
+    /* width:960px; */
+    padding:20px;
+    padding-left:30px;
+    /* margin: 0 auto; */
+    margin: 20px;
+    background-color:white;
+    /* position:relative; */
+    background-color:pink;
+    
+}
+
+#win-lose {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    font-size: 60px;
+
+}
