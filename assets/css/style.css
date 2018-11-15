@@ -3,8 +3,10 @@ body {
 }
 
 .instructions {
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Poiret One', cursive;
+    font-size: 22px;
+    
 }
 
 .crystal-image {
